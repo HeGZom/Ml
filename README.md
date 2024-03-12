@@ -1,6 +1,3 @@
-
-Model: CatBoostClassifier
-NDCG on validation set: 0.6078339070949719
 KNeighborsClassifier и GradientBoostingClassifier и SVC:
 Проведена работа с данными, стандартизация для обучения моделей классификации.
 Использованы три различных классификатора: KNeighborsClassifier, GradientBoostingClassifier, и SVC (Support Vector Classifier).
@@ -9,7 +6,6 @@ KNeighborsClassifier и GradientBoostingClassifier и SVC:
 NeuralNetwork:
 Обучена модель нейронной сети (Neural Network).
 Полученный скор (вероятно, значение метрики качества) равен 0.44752184104330667.
-
 
 CatBoostClassifier с NDCG on validation 0.6078339070949719:
 Использован CatBoostClassifier, без стандартизации датасета, для сохранения категариальных признаков которая является библиотекой для градиентного бустинга, оптимизированной для категориальных признаков.
